@@ -1,0 +1,64 @@
+/* Fundo da página */
+body {
+    background-color: rgb(246, 247, 246);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0 20px;
+    color: rgba(2, 5, 0, 0.589);
+    line-height: 1.6;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Imagem principal */
+#busan1 {
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Seção de subtítulo */
+#sec1 h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Parágrafos */
+p {
+    font-size: 1.1rem;
+    text-align: justify;
+    margin: 10px auto 20px;
+    max-width: 900px;
+}
+
+/* Lista ordenada */
+ol {
+    list-style-position: inside;
+    padding-left: 0;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Deixa os <li> em negrito */
+li {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+/* Imagens da lista */
+#busan2, 
+#busan3,
+ol img {
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    margin: 25px auto 10px;
+    border-radius: 10px;
+}
